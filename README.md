@@ -1,0 +1,11 @@
+# AI Recruitment & Screening System
+
+## Folder Layout
+- **data/**: Dataset storage
+- **ats_engine/**: Resume matching logic
+- **screening_ai/**: Candidate evaluation models
+- **logs/**: Activity logs
+
+## Setup
+1. Activate virtual environment.
+2. Install dependencies: `pip install -r requirements.txt`
