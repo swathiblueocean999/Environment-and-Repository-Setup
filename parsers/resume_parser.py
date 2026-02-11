@@ -1,0 +1,1 @@
+def parse_resume(file_path): return {"name": "Candidate", "skills": []}
