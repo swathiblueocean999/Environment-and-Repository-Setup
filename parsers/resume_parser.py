@@ -9,4 +9,12 @@ def parse_resume(file_path):
     except Exception as e:
         return {"error": str(e)}
 
-print(parse_resume("sample_resume.pdf"))
+# profiles to be tested
+test_files = ["parsers/test1.pdf", "parsers/test2.pdf", "parsers/test3.pdf", "parsers/test4.pdf"]
+
+# process each file and print the results
+for file_path in test_files:
+    print(f"--- Processing: {file_path} ---")
+    result = parse_resume(file_path)
+    print(result)
+    print("-" * 30)
